@@ -15,7 +15,7 @@ Todas las clases serán dictadas en el horario de 16:30 a 18:30.
 
 Breve historia de Python y su Filosofía. Principios de diseño de Python (PEP 20). Instalación y Configuración de Python y entornos de desarrollo (IDE).
 
-- **Diapositiva:** [Clase 1](Clase1.pdf)
+- **Diapositiva:** [Clase 1](Clase 1.pdf)
 
 ***Material Extra***
 
