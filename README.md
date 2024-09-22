@@ -33,6 +33,8 @@ Breve historia de Python y su Filosofía. Principios de diseño de Python (PEP 2
 
 Sintaxis Básica y Estructuras de Control. Variables, tipos de datos y operadores. Estructuras de control (if, for, while).
 
+- **Diapositiva:** [Clase 2](Clase02.pdf)
+
 </details>
 
 <details>
