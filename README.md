@@ -46,6 +46,8 @@ Sintaxis Básica y Estructuras de Control. Variables, tipos de datos y operadore
 
 Estructuras de Datos. Listas, tuplas, diccionarios y conjuntos. Manipulación y métodos asociados.
 
+- **Diapositiva:** [Clase 3](Clase03.pdf)
+
 </details>
 
 <details>
