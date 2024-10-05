@@ -33,6 +33,8 @@ Breve historia de Python y su Filosofía. Principios de diseño de Python (PEP 2
 
 Sintaxis Básica y Estructuras de Control. Variables, tipos de datos y operadores. Estructuras de control (if, for, while).
 
+- **Diapositiva:** [Clase 2](Clase02.pdf)
+
 </details>
 
 <details>
@@ -44,6 +46,8 @@ Sintaxis Básica y Estructuras de Control. Variables, tipos de datos y operadore
 
 Estructuras de Datos. Listas, tuplas, diccionarios y conjuntos. Manipulación y métodos asociados.
 
+- **Diapositiva:** [Clase 3](Clase03.pdf)
+
 </details>
 
 <details>
@@ -54,6 +58,8 @@ Estructuras de Datos. Listas, tuplas, diccionarios y conjuntos. Manipulación y 
 </summary>
 
 Funciones y Módulos. Definición y uso de funciones. Importación y creación de módulos.
+
+- **Diapositiva:** [Clase 4](Clase04.pdf)
 
 </details>
 
