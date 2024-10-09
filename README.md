@@ -138,6 +138,8 @@ Laboratorio 1: Control de LEDs y botones. Laboratorio 2: Monitorización de temp
 
 Bibliotecas Estándar y Externas. Introducción a las bibliotecas estándar de Python. Uso de bibliotecas populares (NumPy, matplotlib).
 
+- **Diapositiva:** [Clase Extra 1](Clase_extra01.pdf)
+
 </details>
 
 <details>
