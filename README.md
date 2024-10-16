@@ -70,7 +70,9 @@ Funciones y Módulos. Definición y uso de funciones. Importación y creación d
 
 </summary>
 
-Conceptos Básicos de POO. Clases y objetos. Métodos y atributos. Herencia y Polimorfismo.
+Conceptos Básicos de POO. Clases y objetos. Métodos y atributos.
+
+- **Diapositiva:** [Clase 5](Clase05.pdf)
 
 </details>
 
@@ -137,6 +139,8 @@ Laboratorio 1: Control de LEDs y botones. Laboratorio 2: Monitorización de temp
 </summary>
 
 Bibliotecas Estándar y Externas. Introducción a las bibliotecas estándar de Python. Uso de bibliotecas populares (NumPy, matplotlib).
+
+- **Diapositiva:** [Clase Extra 1](Clase_extra01.pdf)
 
 </details>
 
