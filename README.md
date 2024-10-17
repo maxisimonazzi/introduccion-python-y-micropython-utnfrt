@@ -83,7 +83,7 @@ Conceptos Básicos de POO. Clases y objetos. Métodos y atributos.
 
 </summary>
 
-Qué es un microcontrolador y sus aplicaciones. Comparación entre MicroPython y otros lenguajes de programación para microcontroladores. Instalación de MicroPython en la placa ESP32. Introducción a las herramientas de desarrollo (Thonny, uPyCraft). Conexión y configuración de la placa.
+Qué es un microcontrolador y sus aplicaciones. Comparación entre MicroPython y otros lenguajes de programación para microcontroladores. Instalación de MicroPython en la placa ESP32. Introducción a la herramientas de desarrollo Thonny. Conexión y configuración de la placa.
 
 </details>
 
