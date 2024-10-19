@@ -85,6 +85,17 @@ Conceptos Básicos de POO. Clases y objetos. Métodos y atributos.
 
 Qué es un microcontrolador y sus aplicaciones. Comparación entre MicroPython y otros lenguajes de programación para microcontroladores. Instalación de MicroPython en la placa ESP32. Introducción a la herramientas de desarrollo Thonny. Conexión y configuración de la placa.
 
+- **Diapositiva:** [Clase 5](Clase05.pdf)
+
+***Material Extra***
+
+- **MicroPython:** [Link](https://MicroPython.org/)
+- **Documentacion de MicroPython:** [Link](https://docs.micropython.org/en/latest/)
+- **Pagina oficial con Drivers CH9102X:** [Link](https://www.wch-ic.com/downloads/CH343SER_ZIP.html)
+- **Drivers CH9102X alojados aqui en el repositorio:** [Link](driverCH9102X/CH343SER.ZIP)
+- **Thonny:** [Link](https://thonny.org/)
+- **Ejemplo en Wokwi de blinker con ESP32 y led onboard:** [Link](https://wokwi.com/projects/412197049127131137)
+  
 </details>
 
 <details>
