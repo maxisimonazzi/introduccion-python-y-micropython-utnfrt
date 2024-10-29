@@ -85,7 +85,7 @@ Conceptos Básicos de POO. Clases y objetos. Métodos y atributos.
 
 Qué es un microcontrolador y sus aplicaciones. Comparación entre MicroPython y otros lenguajes de programación para microcontroladores. Instalación de MicroPython en la placa ESP32. Introducción a la herramientas de desarrollo Thonny. Conexión y configuración de la placa.
 
-- **Diapositiva:** [Clase 5](Clase05.pdf)
+- **Diapositiva:** [Clase 6](Clase06.pdf)
 
 ***Material Extra***
 
@@ -106,6 +106,16 @@ Qué es un microcontrolador y sus aplicaciones. Comparación entre MicroPython y
 </summary>
 
 Control de Hardware Básico. Manejo de pines GPIO. Lectura de sensores y actuadores.
+
+- **Diapositiva:** [Clase 7](Clase07.pdf)
+
+- **Ejemplo en Wokwi de uso de tres leds:** [Link](https://wokwi.com/projects/412813092810329089)
+- **Ejemplo en Wokwi de uso de tres leds y tres botones:** [Link](https://wokwi.com/projects/412816619189701633)
+- **Ejemplo en Wokwi de uso de potenciometro:** [Link](https://wokwi.com/projects/412823150331085825)
+- **Ejemplo en Wokwi de uso de PWM con un led:** [Link](https://wokwi.com/projects/412827239122614273)
+- **Ejemplo en Wokwi de manejo de un servo con potenciometro:** [Link](https://wokwi.com/projects/412828987952574465)
+- **Ejemplo en Wokwi de uso de modulo DHT22:** [Link](https://wokwi.com/projects/412832035326576641)
+- **Ejemplo de grafica PWM en desmos** [Link](https://www.desmos.com/calculator/wsspteh4rc?lang=es)
 
 </details>
 
