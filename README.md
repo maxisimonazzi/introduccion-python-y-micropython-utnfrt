@@ -122,18 +122,29 @@ Control de Hardware Básico. Manejo de pines GPIO. Lectura de sensores y actuado
 <details>
 <summary>
   
-#### `Clase 8: 02 de Noviembre`
+#### `Clase 8: 09 de Noviembre`
 
 </summary>
 
 Comunicación Serial. UART, I2C, SPI. Comunicación entre dispositivos.
+
+- **Diapositiva:** [Clase 8](Clase08.pdf)
+
+- **Ejemplo en Wokwi de escaner de bus I2C:** [Link](https://wokwi.com/projects/414079834163793921)
+- **Ejemplo en Wokwi de uso de display lcd 2x16 con I2C:** [Link](https://wokwi.com/projects/414082182853706753)
+- **Ejemplo en Wokwi de uso de display lcd 2x16 con I2C y caracteres custom:** [Link](https://wokwi.com/projects/414082835855619073)
+- **Ejemplo en Wokwi de uso de display lcd 2x16 con I2C, caracteres custom y sensor de temperatura:** [Link](https://wokwi.com/projects/414083765618679809)
+- **Ejemplo en Wokwi de uso de 2 displays lcd 2x16 con I2C, caracteres custom y sensor de temperatura:** [Link](https://wokwi.com/projects/414085167768395777)
+- **Ejemplo en Wokwi de uso de display oled SSD1306:** [Link](https://wokwi.com/projects/414092239396279297)
+- **Ejemplo en Wokwi de uso de display oled SSD1306 y sensor de temperatura:** [Link](https://wokwi.com/projects/414092844302002177)
+- **Creador de caracteres para LCD:** [Link](https://maxpromer.github.io/LCD-Character-Creator/)
 
 </details>
 
 <details>
 <summary>
   
-#### `Clase 9: 09 de Noviembre`
+#### `Clase 9: 16 de Noviembre`
 
 </summary>
 
@@ -144,7 +155,7 @@ Estación. Punto de acceso. Web server.
 <details>
 <summary>
   
-#### `Clase 10: 16 de Noviembre`
+#### `Clase 10: 23 de Noviembre`
 
 </summary>
 
@@ -173,5 +184,7 @@ Bibliotecas Estándar y Externas. Introducción a las bibliotecas estándar de P
 </summary>
 
 Trabajando en equipo. Git y Github.
+
+- **Diapositiva:** [Clase Extra 2](Clase_extra02.pdf)
 
 </details>
