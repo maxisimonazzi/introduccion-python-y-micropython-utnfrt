@@ -9,8 +9,12 @@ contrasena = '1234567890'
 
 ap.config(essid=nombre, password=contrasena, authmode=network.AUTH_WPA_WPA2_PSK)
 
-# IP, máscara de red, puerta de enlace y DNS
-ap.ifconfig(('192.168.56.1', '255.255.255.0', '192.168.56.1', '192.168.56.1'))
+ip = '10.0.0.15'
+mascara_subred = '255.255.255.0'
+puerta_enlace = '10.0.0.15'
+dns = '10.0.0.15'
+
+ap.ifconfig((ip, mascara_subred, puerta_enlace, dns))
 
 print('Punto de acceso configurado:')
 print("-"*40)
