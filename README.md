@@ -150,6 +150,8 @@ Comunicación Serial. UART, I2C, SPI. Comunicación entre dispositivos.
 
 Estación. Punto de acceso. Web server.
 
+- **Diapositiva:** [Clase 9](Clase09.pdf)
+
 </details>
 
 <details>
