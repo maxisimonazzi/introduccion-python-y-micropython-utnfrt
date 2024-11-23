@@ -161,7 +161,11 @@ Estación. Punto de acceso. Web server.
 
 </summary>
 
-Laboratorio 1: Control de LEDs y botones. Laboratorio 2: Monitorización de temperatura y humedad.
+Laboratorio : Control de LEDs, botones y buzzer mediante pulsadores y por internet.
+
+- **Ejemplo en Wokwi de leds, botones y buzzer:** [Link](https://wokwi.com/projects/414134246575354881)
+- **Ejemplo en Wokwi del juego Simon:** [Link](https://wokwi.com/projects/414937512735548417)
+- **Ejemplo en Wokwi de envio de notificacion por Whatsapp:** [Link](https://wokwi.com/projects/415309631171881985)
 
 </details>
 
