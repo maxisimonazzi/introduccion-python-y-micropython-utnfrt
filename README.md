@@ -6,7 +6,7 @@
 
 Todas las clases serán dictadas en el horario de 16:30 a 18:30.
 
-<details>
+<details> sd
 <summary>
   
 #### `Clase 1: 14 de Septiembre`
