@@ -1,4 +1,6 @@
-# ![Simon](https://cdn-icons-png.freepik.com/32/489/489700.png) Juego de Simon en Micropython para ESP32 ![Simon](https://cdn-icons-png.freepik.com/32/489/489700.png)
+<div align="center">
+  <h1><img src="https://cdn-icons-png.freepik.com/32/489/489700.png"> Juego de Simon en Micropython para ESP32 <img src="https://cdn-icons-png.freepik.com/32/489/489700.png"></h1>
+</div>
 
 ¡Juego Simon desarrollado en MicroPython para el ESP32! Este proyecto implementa el clásico juego de memoria "Simon" utilizando un microcontrolador ESP32, 4 LEDs, 4 botones y un buzzer. Sigue las instrucciones a continuación para configurar y jugar el juego.
 
@@ -52,8 +54,9 @@ GPIO5   ->  Boton Verde
 GPIO18  ->  Boton Azul
 GPIO23  ->  Buzzer
 ```
-
-![Diagrama](./conexiones.png)
+<div align="center">
+  <h1><img src="./conexiones.png"></h1>
+</div>
 
 **Nota:** Asegúrate de conectar las resistencias de 100 ohms en serie con los LEDs para limitar la corriente y evitar dañarlos.
 
@@ -81,9 +84,10 @@ Con Thonny IDE puedes flashear rápidamente el firmware desde el menú `Run > Co
 ## 🎥 Video
 ¡Mira el juego en acción en este video!
 
-[![Simon Video](https://img.youtube.com/vi/zOhMqD62yck/0.jpg)](https://www.youtube.com/watch?v=zOhMqD62yck)
-
-[https://www.youtube.com/watch?v=zOhMqD62yc](https://www.youtube.com/watch?v=zOhMqD62yck)
+<div align="center">
+  <p><img src="https://img.youtube.com/vi/zOhMqD62yck/0.jpg"></p>
+  <p>https://www.youtube.com/watch?v=zOhMqD62yck</p>
+</div>
 
 ## 📜 Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Siéntete libre de usar, modificar y distribuir el código como mejor te parezca. No olvides atribuir al autor y compartir tus mejoras. ¡Diviértete jugando al Simon! 😄
