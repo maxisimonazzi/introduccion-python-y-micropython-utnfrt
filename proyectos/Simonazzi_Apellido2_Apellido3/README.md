@@ -82,6 +82,7 @@ Con Thonny IDE puedes flashear rápidamente el firmware desde el menú `Run > Co
 ¡Mira el juego en acción en este video!
 
 [![Simon Video](https://img.youtube.com/vi/zOhMqD62yck/0.jpg)](https://www.youtube.com/watch?v=zOhMqD62yck)
+
 [https://www.youtube.com/watch?v=zOhMqD62yc](https://www.youtube.com/watch?v=zOhMqD62yck)
 
 ## 📜 Licencia
