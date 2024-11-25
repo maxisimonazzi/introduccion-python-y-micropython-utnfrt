@@ -1,4 +1,6 @@
-# 📂 Carpeta de Proyectos - Curso Introducción a Python y Micropython 🐍
+<div align="center">
+  <h1>📂 Carpeta de Proyectos - Curso Introducción a Python y Micropython 🐍</h1>
+</div>
 
 ¡Bienvenidos a la sección de proyectos finales del curso de MicroPython! Aquí cada grupo podrá subir su proyecto siguiendo las instrucciones detalladas a continuación. 🎉
 
