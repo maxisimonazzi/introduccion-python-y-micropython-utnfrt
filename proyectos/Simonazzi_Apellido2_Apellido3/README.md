@@ -99,6 +99,14 @@ Con Thonny IDE puedes flashear rápidamente el firmware desde el menú `Run > Co
   <p>https://www.youtube.com/watch?v=zOhMqD62yck</p>
 </div>
 
+## 🎥 Simulación
+¡En Wokwi podes simular y probar el juego! A divertirse 😄
+
+<div align="center">
+  <p><a href="https://wokwi.com/projects/414937512735548417" title="Simulacion en Wokwi" target="_blank"><img src="./wokwi.gif"></a></p>
+  <p>https://wokwi.com/projects/414937512735548417</p>
+</div>
+
 ## 📜 Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Siéntete libre de usar, modificar y distribuir el código como mejor te parezca. No olvides atribuir al autor y compartir tus mejoras. ¡Diviértete jugando al Simon! 😄
 
