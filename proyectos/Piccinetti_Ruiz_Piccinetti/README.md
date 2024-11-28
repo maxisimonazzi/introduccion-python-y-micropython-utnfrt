@@ -107,11 +107,7 @@ wifi.wifi_connect("MiESP32", "password123")
 ## Video
 ¡El Proyecto en acción en este video!
 
-<div align="center">
-  <p><video src="prueba.mp4" controls></video></p>
-
-</div>
-
+https://github.com/user-attachments/assets/bf39a343-9e6c-45a2-b2bc-9c9e87df2c2e
 
 ## Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Puedes usar, modificar y distribuir el código libremente, manteniendo la atribución al autor original.
