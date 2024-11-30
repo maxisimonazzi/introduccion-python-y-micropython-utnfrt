@@ -94,10 +94,7 @@ Con Thonny IDE puedes flashear rápidamente el firmware desde el menú `Run > Co
 ## 🎥 Video
 ¡Mira el juego en acción en este video!
 
-<div align="center">
-  <p><img src="https://img.youtube.com/vi/zOhMqD62yck/0.jpg"></p>
-  <p>https://www.youtube.com/watch?v=zOhMqD62yck</p>
-</div>
+https://github.com/user-attachments/assets/33b793d7-e211-4f2d-872a-01ab27231eff
 
 ## 🎥 Simulación
 ¡En Wokwi podes simular y probar el juego! A divertirse 😄
