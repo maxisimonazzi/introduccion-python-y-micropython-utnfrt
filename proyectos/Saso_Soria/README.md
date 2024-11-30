@@ -86,6 +86,14 @@ A continuación se muestra el esquema de conexión del circuito:
 ![Esquema del Circuito](./image.jpeg)
 
 ---
+## Video del Proyecto
+
+A continuación se muestra un video explicando nuestro proyecto:
+
+https://youtube.com/shorts/mUlYcbvIcnY?feature=shared
+
+
+--- 
 
 ## Contribuciones
 
