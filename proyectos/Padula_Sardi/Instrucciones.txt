@@ -1,0 +1,14 @@
+Este proyecto consite en una nueva versión de las luces de los arboles de navidad. 
+El circuito está formado por un microprocesador ESP32, 
+5 luces leds con sus respectivas resistencias de 100 ohms, un boton pulsador y una pantalla LCD de 16x2.
+Este circuito enciende y apaga las luces dependiendo del modo de operación. Para cambiar dicho modo, es necesario presionar el pulsador.
+Mientas que en la pantalla LCD aparece un cartel con "Feliz Navidad" y un movimiento de campanas.
+
+Para probarlo en simulacion ingrese en el siguiente link para probarlo:
+https://wokwi.com/projects/415929877707441153
+
+Para una simulación realizada en protoboard ingrese en el siguiente link:
+https://youtu.be/Al2GBAFVN3g
+
+
+
