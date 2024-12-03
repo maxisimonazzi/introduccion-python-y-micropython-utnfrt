@@ -64,6 +64,11 @@ Puedes ver el video explicativo del proyecto en el siguiente enlace:
 
 ---
 
+## 🎥 Esquematico
+![Esquematico](./esquematico.jpg)
+
+---
+
 ## 📚 Bibliografía
 1. Telegram. (n.d.). *Bots: An introduction for developers*. Recuperado de [https://core.telegram.org/bots](https://core.telegram.org/bots)
 

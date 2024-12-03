@@ -7,11 +7,11 @@ import gc
 
 # Configuración Wi-Fi
 ssid = "Familia_SF"
-password = "gastona2516"
+password = "xxxxxx"
 
 # Configuración del Bot de Telegram
-bot_token = "7817462240:AAF15exMvmMGuYABwEiPcJZLvAetOc0OSyc"
-chat_id = "8194202117"
+bot_token = "xxxxx:xxxxxx"
+chat_id = "xxxxxx"
 
 # Pines del ESP32
 dht_sensor = DHT11(Pin(23))  # DHT11 conectado al GPIO23
