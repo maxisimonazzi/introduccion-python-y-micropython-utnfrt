@@ -32,6 +32,12 @@ A continuación se muestra una imagen del circuito montado en una protoboard:
 
 ![Circuito en Protoboard](circuito.jpeg)
 
+## 🎥 Video Demostrativo
+
+A continuación, se presenta un video demostrativo del principio de funcionamiento del invernadero automatizado:
+
+https://github.com/user-attachments/assets/5a201095-5bf3-43a9-bef6-5d2e6401a550
+
 ## 🛠️ Instalación
 1. Clonar el repositorio en tu computadora:
    ```bash
