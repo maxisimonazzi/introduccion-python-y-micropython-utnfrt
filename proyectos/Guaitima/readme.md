@@ -71,7 +71,7 @@ A continuación, se presenta el circuito esquemático del sistema automatizado d
 
 A continuación, se presenta un video demostrativo del principio de funcionamiento del invernadero automatizado:
 
-[![Video del Invernadero](video_thumbnail.png)](video.mp4)
+https://github.com/user-attachments/assets/c6138c91-1ec4-46cc-93bb-50d4dabc62d8
 
 ## 🖥️ Simulación en Wokwi
 
