@@ -1,53 +1,61 @@
-from machine import Pin, PWM
-from dcmotor import DCMotor
-import time
-import espnow
 import network
+from machine import Pin
+import espnow
+import utime
 
-# Inicializar red y ESPNOW
+
+# Activar la interfaz de red para ESPNOW
 sta = network.WLAN(network.STA_IF)
 sta.active(True)
 sta.disconnect()
 
+# Inicializar ESPNOW
 esp = espnow.ESPNow()
 esp.active(True)
 
-# Configuración del Motor A
-in1A = Pin(5, Pin.OUT)  # Cambia por el pin que uses
-in2A = Pin(18, Pin.OUT) # Cambia por el pin que uses
-enaA = PWM(Pin(19))     # Cambia por el pin que uses
-enaA.freq(15000)        # Frecuencia de 15 kHz para el motor
-motorA = DCMotor(in1A, in2A, enaA)
+# Dirección MAC del ESP32 receptor
+peer = b'\xb8\xd6\x1aBU\x00'  # Asegúrate de cambiar esto por la MAC de tu receptor
+esp.add_peer(peer)
 
-# Configuración del Motor B
-in1B = Pin(23, Pin.OUT) # Cambia por el pin que uses
-in2B = Pin(22, Pin.OUT) # Cambia por el pin que uses
-enaB = PWM(Pin(21))     # Cambia por el pin que uses
-enaB.freq(15000)        # Frecuencia de 15 kHz para el motor
-motorB = DCMotor(in1B, in2B, enaB)
+# Configurar los botones
+button_UP = Pin(16, Pin.IN, Pin.PULL_UP)
+button_LEFT = Pin(17, Pin.IN, Pin.PULL_UP)
+button_RIGHT = Pin(18, Pin.IN, Pin.PULL_UP)
 
-try:
-    while True:
-        # Motor A hacia adelante, motor B detenido
-        motorA.forward(50)  # Velocidad 50%
-        motorB.stop()       # Detener motor B
-        print("Motor A avanzando, Motor B detenido")
-        time.sleep(2)
+# Variables para debounce
+last_button_UP_state = 1  # Estado inicial del botón (no presionado)
+last_button_LEFT_state = 1  # Estado inicial del botón
+last_button_RIGHT_state = 1  # Estado inicial del botón
+debounce_delay = 50  # Retardo para debounce en milisegundos
 
-        # Motor B hacia adelante, motor A detenido
-        motorA.stop()       # Detener motor A
-        motorB.forward(50)  # Velocidad 50%
-        print("Motor B avanzando, Motor A detenido")
-        time.sleep(2)
+while True:
+    # Leer el estado de cada botón
+    button_UP_state = button_UP.value()
+    button_LEFT_state = button_LEFT.value()
+    button_RIGHT_state = button_RIGHT.value()
 
-        # Ambos motores hacia adelante
-        motorA.forward(50)  # Velocidad 50%
-        motorB.forward(50)  # Velocidad 50%
-        print("Ambos motores avanzando")
-        time.sleep(2)
+    # Verificar si el estado del botón UP ha cambiado
+    if button_UP_state != last_button_UP_state:
+        utime.sleep_ms(debounce_delay)  # Esperar para debounce
+        if button_UP.value() == 0:  # Verificar si sigue presionado
+            esp.send(peer, b'UP')  # Enviar comando UP
+            print("Enviando comando: UP")
+        last_button_UP_state = button_UP_state  # Actualizar el último estado
 
-except KeyboardInterrupt:
-    # Detener ambos motores si se interrumpe el programa
-    motorA.stop()
-    motorB.stop()
-    print("Programa detenido")
+    # Verificar si el estado del botón LEFT ha cambiado
+    if button_LEFT_state != last_button_LEFT_state:
+        utime.sleep_ms(debounce_delay)
+        if button_LEFT.value() == 0:
+            esp.send(peer, b'LEFT')  # Enviar comando LEFT
+            print("Enviando comando: LEFT")
+        last_button_LEFT_state = button_LEFT_state
+
+    # Verificar si el estado del botón RIGHT ha cambiado
+    if button_RIGHT_state != last_button_RIGHT_state:
+        utime.sleep_ms(debounce_delay)
+        if button_RIGHT.value() == 0:
+            esp.send(peer, b'RIGHT')  # Enviar comando RIGHT
+            print("Enviando comando: RIGHT")
+        last_button_RIGHT_state = button_RIGHT_state
+
+    utime.sleep_ms(10)  # Pausa breve para reducir la carga del CPU

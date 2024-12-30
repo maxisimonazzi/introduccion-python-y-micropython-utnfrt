@@ -31,16 +31,16 @@ def handle_command(command):
     """Procesa el comando recibido para controlar los motores."""
     if command == b'UP':
         print("Adelante: Ambos motores avanzan")
-        motorA.forward(100)  # Motor A avanza al 50%
-        motorB.forward(100)  # Motor B avanza al 50%
+        motorA.forward(50)  # Motor A avanza al 50%
+        motorB.forward(50)  # Motor B avanza al 50%
     elif command == b'RIGHT':
         print("Giro a la derecha: Motor A avanza, Motor B detenido")
-        motorA.forward(100)  # Motor A avanza
+        motorA.forward(50)  # Motor A avanza
         motorB.stop()       # Motor B detenido
     elif command == b'LEFT':
         print("Giro a la izquierda: Motor B avanza, Motor A detenido")
         motorA.stop()       # Motor A detenido
-        motorB.forward(100)  # Motor B avanza
+        motorB.forward(50)  # Motor B avanza
     else:
         print(f"Mensaje desconocido: {command}")
         motorA.stop()
@@ -55,5 +55,3 @@ while True:
 
     # Pequeña pausa para evitar saturación
     utime.sleep_ms(100)
-
-
